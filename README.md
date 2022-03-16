@@ -1,1 +1,2 @@
-# RandomWalker.java
+A two-dimensional random walk simulates the behavior of a particle moving in a grid of points. At each step, the random walker moves north, south, east, or west with probability equal to 1/4, independent of previous moves. Write a program RandomWalker.java that takes an int command-line argument n and simulates the motion of a random walk for n steps. Print the location at each step (including the starting point), treating the starting point as the origin (0, 0). Also, print the square of the final squared Euclidean distance from the origin as double.
+Note: you do not need arrays for this problem, just keep track of the x and y coordinates during the random walk.
